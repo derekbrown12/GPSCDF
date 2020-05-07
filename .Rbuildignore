@@ -1,0 +1,7 @@
+^cran-comments\.md$
+^cran-comments\.Rmd$
+^README\.Rmd$
+^README\.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+
