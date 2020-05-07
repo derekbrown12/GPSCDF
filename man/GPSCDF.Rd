@@ -4,9 +4,18 @@
 \alias{GPSCDF}
 \title{Generalized Propensity Score Cumulative Distribution Function (GPS-CDF)}
 \usage{
-GPSCDF(pscores = NULL, data = NULL, trt = NULL, stratify = FALSE,
-  nstrat = 5, optimal = FALSE, greedy = FALSE, ordinal = FALSE,
-  multinomial = FALSE, caliper = NULL)
+GPSCDF(
+  pscores = NULL,
+  data = NULL,
+  trt = NULL,
+  stratify = FALSE,
+  nstrat = 5,
+  optimal = FALSE,
+  greedy = FALSE,
+  ordinal = FALSE,
+  multinomial = FALSE,
+  caliper = NULL
+)
 }
 \arguments{
 \item{pscores}{The object containing the treatment ordered generalized
